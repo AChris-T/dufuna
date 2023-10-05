@@ -8,7 +8,7 @@ public class MockLekkiPropertyApp {
     public static void main(String[] args) {
         LekkiProperty property= new LekkiProperty();
         property.setPropertyId("12345");
-        property.setPropertyAddress("24 Ibadan");
+        property.setPropertyAddress("24 Ibadan") ;
 
         LekkiPropertyService propertyService = new MockLekkiPropertyService();
         propertyService.saveProperty(property);
