@@ -142,4 +142,21 @@ public class LekkiProperty {
         this.validFrom = validFrom;
         this.validTo = validTo;
     }
+
+    public void setId(int id) {
+    }
+
+    public int getId() {
+        return 0;
+    }
+
+    public void setName(String s) {
+    }
+
+    public void saveProperty(LekkiProperty property) {
+    }
+
+    public LekkiProperty getProperty(int propertyId) {
+        return null;
+    }
 }
